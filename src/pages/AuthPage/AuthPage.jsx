@@ -1,5 +1,8 @@
 import { Container, Flex, VStack, Box, Image } from "@chakra-ui/react";
 import AuthForm from "../../components/AuthForm/AuthForm";
+import SignupImage from '../../images/MaskHacker.jpg'
+import Playtore from '../../images/playstore.png'
+import Microsoft from '../../microsoft.png'
 
 const AuthPage = () => {
 	return (
@@ -8,7 +11,7 @@ const AuthPage = () => {
 				<Flex justifyContent={"center"} alignItems={"center"} gap={10}>
 					{/* Left hand-side */}
 					<Box display={{ base: "none", md: "block" }}>
-						<Image src='/MaskHacker.jpg' h={650} alt='Phone img' />
+						<Image src={SignupImage} h={650} alt='Phone img' />
 					</Box>
 
 					{/* Right hand-side */}
@@ -16,8 +19,8 @@ const AuthPage = () => {
 						<AuthForm />
 						<Box textAlign={"center"}>Get the app.</Box>
 						<Flex gap={5} justifyContent={"center"}>
-							<Image src='/playstore.png' h={"10"} alt='Playstore logo' />
-							<Image src='/microsoft.png' h={"10"} alt='Microsoft logo' />
+							<Image src={Playtore} h={"10"} alt='Playstore logo' />
+							<Image src={Microsoft} h={"10"} alt='Microsoft logo' />
 						</Flex>
 					</VStack>
 				</Flex>
