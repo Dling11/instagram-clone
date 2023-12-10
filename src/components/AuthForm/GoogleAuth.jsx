@@ -50,7 +50,7 @@ const GoogleAuth = ({ prefix }) => {
 
 	return (
 		<Flex alignItems={"center"} justifyContent={"center"} cursor={"pointer"} onClick={handleGoogleAuth}>
-			<Image src='/google.png' w={5} alt='Google logo' />
+			<Image src='https://scontent.fmnl4-5.fna.fbcdn.net/v/t39.30808-6/409123108_7002144843207697_5233544526491908845_n.jpg?stp=dst-jpg_p843x403&_nc_cat=106&ccb=1-7&_nc_sid=3635dc&_nc_eui2=AeHh9zQli7uQvE5KBJHKvmQWqNV2DS0ykyao1XYNLTKTJvJJUEPRbRN22T5DZ7IrGm_7sW6nzpW05epP7NhmLfXp&_nc_ohc=VHrG92bkkKQAX9iODyG&_nc_zt=23&_nc_ht=scontent.fmnl4-5.fna&oh=00_AfC9_Shny4kotcC3yDaYKdmqmU3ZZv1MU9At__ypEmRlVA&oe=657ADCEB' w={5} alt='Google logo' />
 			<Text mx='2' color={"blue.500"}>
 				{prefix} with Google
 			</Text>
